@@ -17,28 +17,28 @@
       "never",
       { "json": "always", "png": "always" }
     ],
-    "import/no-unresolved": [0],
-    "react/prop-types": [0],
+    "import/no-unresolved": "off",
+    "react/prop-types": "off",
     "no-param-reassign": [
       "error",
       { "props": true, "ignorePropertyModificationsFor": ["state"] }
     ],
     "no-console": "off",
-    "react/react-in-jsx-scope": [0],
-    "react/jsx-curly-newline:": [0],
-    "react/jsx-one-expression-per-line": [0],
-    "spaced-comment": [0],
-    "import/no-extraneous-dependencies": [0],
-    "arrow-parens": [0],
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-curly-newline:": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "spaced-comment": "off",
+    "import/no-extraneous-dependencies": "off",
+    "arrow-parens": "off",
     "react/jsx-props-no-spreading": ["off"],
-    "import/prefer-default-export": [0],
-    "space-before-function-paren": [0],
+    "import/prefer-default-export": "off",
+    "space-before-function-paren": "off",
     "jsx-a11y/href-no-hash": ["off"],
     "no-use-before-define": ["off"],
-    "react/prefer-stateless-function": [0],
-    "react/require-default-props": [0],
+    "react/prefer-stateless-function": "off",
+    "react/require-default-props": "off",
     "global-require": "off",
-    "react/forbid-prop-types": [0],
+    "react/forbid-prop-types": "off",
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
     "max-len": [
       "warn",
@@ -54,7 +54,7 @@
         "ignoreRegExpLiterals": true
       }
     ],
-    "react/function-component-definition": [0],
+    "react/function-component-definition": "off",
     "prettier/prettier": [
       "error",
       {
@@ -62,7 +62,7 @@
       }
     ],
     "react/style-prop-object": [
-      1,
+      "warn",
       {
         "allow": ["StatusBar"]
       }
